@@ -1,4 +1,4 @@
-{% set version = "3.4.2" %}
+{% set version = "3.5.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/ggthemes_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/ggthemes/ggthemes_{{ version }}.tar.gz
-  sha256: 231e79877295adb1528cabff7db41fa24496175c49b01e7f640a00fde37dfe44
+  sha256: 68f19ec88de19c87a8982aeb6325d776f983e0ab3c74974e09589648d6ff2b37
 
 build:
   number: 0
