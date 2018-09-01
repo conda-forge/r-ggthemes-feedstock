@@ -25,14 +25,14 @@ requirements:
   build:
     - {{posix}}zip               # [win]
   host:
-    - r-base
+    - r-base <3.5
     - r-ggplot2 >=3.0.0
     - r-purrr
     - r-scales
     - r-stringr
     - r-tibble
   run:
-    - r-base
+    - r-base <3.5
     - r-ggplot2 >=3.0.0
     - r-purrr
     - r-scales
