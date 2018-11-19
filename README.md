@@ -14,9 +14,8 @@ Summary: Some extra themes, geoms, and scales for 'ggplot2'. Provides 'ggplot2' 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-ggthemes-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-ggthemes-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-ggthemes-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-ggthemes-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-ggthemes-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-ggthemes-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-ggthemes-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-ggthemes-feedstock)
 
 Current release info
 ====================
