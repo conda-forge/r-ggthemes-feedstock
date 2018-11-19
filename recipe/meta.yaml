@@ -14,9 +14,9 @@ source:
   sha256: 0b71202b253cb85bc8d49b74ace2cf87f04f235e879eb2ef71ba8cb03938c578
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -52,8 +52,7 @@ about:
     'The Economist', 'Stata', 'Excel', and 'The Wall Street Journal', among others.
     Provides 'geoms' for Tufte's box plot and range frame.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
