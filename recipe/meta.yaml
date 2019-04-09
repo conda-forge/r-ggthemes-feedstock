@@ -1,4 +1,4 @@
-{% set version = "4.1.0" %}
+{% set version = "4.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggthemes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggthemes/ggthemes_{{ version }}.tar.gz
-  sha256: 8591d6d354619bffb770d67705135d53e3a14f153fa73771480b8ab3091ad9a8
+  sha256: a2028b38eaed282655c46a1887873597975eddb75c3fca2ca2cac4be8c9e5024
 
 build:
   noarch: generic
