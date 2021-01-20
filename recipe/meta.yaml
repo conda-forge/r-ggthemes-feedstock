@@ -1,4 +1,4 @@
-{% set version = "4.2.0" %}
+{% set version = "4.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggthemes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggthemes/ggthemes_{{ version }}.tar.gz
-  sha256: 5bb3fe94819fe2cce7865f07a6e6ea5c59d3996f78d1c0836ad406f69efb3367
+  sha256: 7b35168cf5b68f6f52dd533a1b345ec87e09d1a85ca68e8dc5377cdf95718567
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -46,12 +46,9 @@ test:
 about:
   home: http://github.com/jrnold/ggthemes
   license: GPL-2
-  summary: Some extra themes, geoms, and scales for 'ggplot2'. Provides 'ggplot2' themes and
-    scales that replicate the look of plots by Edward Tufte, Stephen Few, 'Fivethirtyeight',
-    'The Economist', 'Stata', 'Excel', and 'The Wall Street Journal', among others.
-    Provides 'geoms' for Tufte's box plot and range frame.
+  summary: Some extra themes, geoms, and scales for 'ggplot2'. Provides 'ggplot2' themes and scales that replicate the look of plots by Edward Tufte, Stephen Few, 'Fivethirtyeight', 'The Economist', 'Stata', 'Excel', and 'The Wall Street Journal', among others. Provides 'geoms' for Tufte's box plot and range frame.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
