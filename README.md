@@ -1,11 +1,11 @@
-About r-ggthemes
-================
+About r-ggthemes-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggthemes-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/jrnold/ggthemes
 
 Package license: GPL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggthemes-feedstock/blob/main/LICENSE.txt)
 
 Summary: Some extra themes, geoms, and scales for 'ggplot2'. Provides 'ggplot2' themes and scales that replicate the look of plots by Edward Tufte, Stephen Few, 'Fivethirtyeight', 'The Economist', 'Stata', 'Excel', and 'The Wall Street Journal', among others. Provides 'geoms' for Tufte's box plot and range frame.
 
