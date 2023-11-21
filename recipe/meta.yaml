@@ -1,4 +1,4 @@
-{% set version = "4.2.4" %}
+{% set version = "5.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggthemes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggthemes/ggthemes_{{ version }}.tar.gz
-  sha256: 7b35168cf5b68f6f52dd533a1b345ec87e09d1a85ca68e8dc5377cdf95718567
+  sha256: 56a913c9018afdff34f05031e0d79f4422dcf72b50c24529c0b7c8d519edadc5
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
