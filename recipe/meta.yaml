@@ -1,6 +1,5 @@
 {% set version = "5.1.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ggthemes
@@ -13,8 +12,7 @@ source:
   sha256: 074819acfe8bb2233426a0fef3bb448c5ce817bb14d517252fa05932e28bbd0e
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
