@@ -1,4 +1,4 @@
-{% set version = "5.2.0" %}
+{% set version = "6.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggthemes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggthemes/ggthemes_{{ version }}.tar.gz
-  sha256: a0f3d4967a082f715b378d226e3eaf212ba7ecc2ac31791c2820f0bf65912cf6
+  sha256: 0b9c7b0583f6ce224bf1819fabbd92efa4f3c938ed7077d388153832fc1e8208
 
 build:
   number: 0
